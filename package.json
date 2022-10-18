@@ -14,8 +14,7 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon -r dotenv/config src/server.ts",
-    "start": "node -r dotenv/config build/index.js",
-    "deploy": "yarn migrate && yarn build && yarn start",
+    "start": "node -r dotenv/config build/server.js",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
     "build": "tsc -p ."
   },
