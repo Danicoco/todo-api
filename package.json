@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "1.1.6",
   "description": "Todo Rest API",
-  "main": "server.js",
+  "main": "build/src/server.js",
   "repository": "",
   "homepage": "",
   "keywords": [
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon -r dotenv/config src/server.ts",
-    "start": "node -r dotenv/config build/server.js",
+    "start": "node -r dotenv/config build/src/server.js",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
     "build": "tsc -p ."
   },

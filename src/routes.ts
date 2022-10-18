@@ -7,7 +7,7 @@ const router = Router();
 router.use('/v1', v1);
 
 router.use('/', (_req, res, _next) =>
-  res.send('Welcome to the Todo World!!!'),
+  res.send('Welcome to the Todo World!!! Get start with the documentation here https://documenter.getpostman.com/view/12237341/2s847ETFFs'),
 );
 
 router.use('*', (_req, res, _next) =>
